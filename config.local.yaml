@@ -1,0 +1,160 @@
+# GEVOEL IN BALANS
+client_id: FFC63077-C463-44D9-B346-A7FFA46164ED
+info:
+  title: Gevoel in balans
+  description: .
+  termsOfService: http://rws.aliconnect.nl/terms/
+  contact:
+    email: max.van.kampen@alicon.nl
+  license:
+    name: Apache 2.0
+    url: http://www.apache.org/licenses/LICENSE-2.0.html
+  version: 1.0.2
+scope:
+  - name
+  - email
+  - mobile
+ws:
+  url: wss://aliconnect.nl:444
+client:
+  servers:
+    - url: https://gevoelinbalans.aliconnect.nl/api
+    # authorizationUrl: https://login.aliconnect.nl/api/oauth2
+    # tokenUrl: https://login.aliconnect.nl/api/oauth2/token
+css:
+  basebg: linear-gradient(to right, rgb(43,162,76), rgb(59,125,237))
+  basefg: white
+components:
+  schemas:
+    Item:
+      security:
+        read:
+        - aim_auth:
+          - website.read
+          - admin.read
+        write:
+        - aim_auth:
+          - website.readwrite
+          - admin.readwrite
+      header:
+      - - Prefix
+        - Tag
+        - Title
+      - - Description
+      - - BodyHTML
+      properties:
+        State:
+          legend: Item
+          title: State
+          format: radio
+          filter: 1
+          options:
+            run:
+              title: Stopping
+              color: green
+            stopped:
+              title: Clearing
+              color: red
+        CreatedDateTime:
+          type: datetime
+          format: hidden
+        LastModifiedDateTime:
+          type: datetime
+          format: hidden
+        LastVisitDateTime:
+          type: datetime
+          format: hidden
+        StartDateTime:
+          type: datetime
+          format: hidden
+        EndDateTime:
+          type: datetime
+          format: hidden
+        FinishDateTime:
+          type: datetime
+          format: hidden
+        Master:
+          filter: true
+          title: Onderdeel van
+          schema: '*'
+        Src:
+          filter: true
+          title: Kopie van
+          schema: '*'
+        Class:
+          filter: true
+          title: Class
+          schema: '*'
+        Children:
+          format: hidden
+          type: array
+        Message:
+          format: hidden
+          type: array
+        File:
+          format: files
+        Prefix:
+          filter: true
+        Tag:
+          type: text
+        Title:
+          type: text
+        Name:
+          type: text
+        Tagname:
+          format: hidden
+          type: array
+        ID:
+          readOnly: true
+    Folder:
+      allOf:
+      - Item
+    Webpage:
+      allOf:
+      - Item
+      header:
+      - - Title
+      - - Description
+      - - BodyHTML
+      properties:
+        State:
+          legend: State
+          format: radio
+          title: Status
+          options:
+            draft:
+              title: In ontwikkeling
+              color: orange
+            concept:
+              title: Concept
+              color: yellow
+            published:
+              title: Zichtbaar
+              color: green
+        News:
+          title: Nieuws
+          format: checkbox
+        IsSelected:
+          title: Selected
+          format: checkbox
+        Title:
+          legend: Content
+          title: Title
+          type: string
+          format: text
+        Description:
+          format: textarea
+          title: Inleiding
+        BodyHTML:
+          format: div
+          title: Hoofdtekst
+        Keywords:
+          title: Zoekwoorden
+        Chapter:
+          format: hidden
+          type: array
+          schema: Chapter
+        Webpage:
+          format: hidden
+          type: array
+          schema: Webpage
