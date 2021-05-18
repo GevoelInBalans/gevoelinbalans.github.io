@@ -1,8 +1,8 @@
-![LVSC](/sites/gevoelinbalans/image/Afbeelding7.jpg)
+![LVSC](img/Afbeelding7.jpg)
 
 # Gevoel in balans
 
-![Gevoel in Balans Logo](/sites/gevoelinbalans/image/Afbeelding1.png)
+![Gevoel in Balans Logo](img/Afbeelding1.png)
 
 Wanneer we *in* balans zijn *voelen* we dat. Wanneer we niet in balans zijn *voelen* we dat ook. Probeer eens een handstand te doen of over een dunne balk te lopen en je voelt direct of je de juiste balans hebt.
 
@@ -16,7 +16,7 @@ Kortom balans of niet, we *voelen* het.
 
 # Trauma en Herstel
 
-![Trauma en Herstel](/sites/gevoelinbalans/image/Afbeelding2.jpg)
+![Trauma en Herstel](img/Afbeelding2.jpg)
 
 Trauma is het gevolg van schokkende, ingrijpende gebeurtenissen die diepe sporen hebben achtergelaten en een schaduw werpen over het leven. Machteloosheid, pijn, onveiligheid, (doods)angst, woede, ontworteling, verscheurdheid, paniek, schuldgevoel, schaamte, walging, afschuw, nachtmerries, flashbacks, piekeren, slecht slapen, veranderde eetlust, prikkelbaarheid, concentratieproblemen, een gevoel van ‘er niet bij zijn’.
 
@@ -26,7 +26,7 @@ Veiligheid en controle herwinnen is de eerste stap op weg naar herstel. Herstel 
 
 # Supervisie
 
-![Supervisie](/sites/gevoelinbalans/image/Afbeelding3.png)
+![Supervisie](img/Afbeelding3.png)
 
 Supervisie is voor professionals met een mensgericht beroep die werkzaam zijn in het werkveld en / of in opleiding zijn. Denk aan maatschappelijk werkers, groepswerkers, psychologen, therapeuten, docenten, fysiotherapeuten, predikanten, geestelijk verzorgers, verpleegkundigen, artsen, managers, coaches.
 
@@ -52,11 +52,11 @@ Daarna maak je een plan, je kiest wat je wilt leren en hoe je dat wilt gaan aanp
 
 Supervisie is een cyclische leerweg waarin opnieuw zelfreflectie inzicht zal geven en je opnieuw zal helpen om volgende stappen te kiezen en uit te voeren.
 
-![LVSC](/sites/gevoelinbalans/image/Afbeelding4.png) Geregistreerd supervisor sinds 2008 S12458H
+![LVSC](img/Afbeelding4.png) Geregistreerd supervisor sinds 2008 S12458H
 
 # Intervisie
 
-![LVSC](/sites/gevoelinbalans/image/Afbeelding5.jpg)
+![LVSC](img/Afbeelding5.jpg)
 
 Intervisie is voor professionele teams met een mensgericht beroep. Denk aan maatschappelijk werkers, groepswerkers, psychologen, therapeuten, docenten, fysiotherapeuten, predikanten, geestelijk verzorgers, verpleegkundigen, artsen, managers, coaches.
 
@@ -70,11 +70,11 @@ Mogelijke doelen:
 -	Verbetering van de onderlinge samenwerking
 -	Verkrijgen van een gedeeld begrip binnen het team
 
-![LVSC](/sites/gevoelinbalans/image/Afbeelding4.png) Geregistreerd supervisor sinds 2008 S12458H
+![LVSC](img/Afbeelding4.png) Geregistreerd supervisor sinds 2008 S12458H
 
 # Door de bril van het oordeel
 
-![LVSC](/sites/gevoelinbalans/image/Afbeelding6.png)
+![LVSC](img/Afbeelding6.png)
 
 Dit boek is in 2016 uitgebracht en gaat over het effect van waardeoordelen op onze psychische gesteldheid en op onze relaties. Ook de invloed op ons gedrag en ons gevoel wordt beschreven. Het boek geeft inzicht over het waarom van waardeoordelen en helpt ontdekken wie je bent en waar je werkelijk naar verlangt.
 
@@ -82,7 +82,7 @@ Er worden oefeningen en aanwijzingen in beschreven die de verbondenheid met onsz
 
 # Contact
 
-![LVSC](/sites/gevoelinbalans/image/Afbeelding8.jpg)
+![LVSC](img/Afbeelding8.jpg)
 
 Christel van Kampen
 

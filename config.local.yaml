@@ -21,6 +21,9 @@ client:
     - url: https://gevoelinbalans.aliconnect.nl/api
     # authorizationUrl: https://login.aliconnect.nl/api/oauth2
     # tokenUrl: https://login.aliconnect.nl/api/oauth2/token
+ref:
+  wiki: https://gevoelinbalans.aliconnect.nl/wiki
+  home: https://gevoelinbalans.aliconnect.nl
 css:
   basebg: linear-gradient(to right, rgb(43,162,76), rgb(59,125,237))
   basefg: white
